@@ -1,0 +1,82 @@
+.attendanceContainer{
+    height:90vh;
+    margin: 5vh 10vw 5vh 10vw;
+    padding: 0 0 5vh 0;
+    background-color:#9cd8d8;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; */
+  /* flex-grow: 2;
+  padding: 0 50px; */
+  text-align: center;
+}
+
+form{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-grow: 2;
+  padding: 0 40px;
+}
+input {
+    background-color: #eee;
+    border: 5px black;
+    padding: 12px 15px;
+    margin: 4vh 5vw 4vh 5vw;
+    width: 80%;
+    border-radius: 5px;
+    color: #004d66;
+    font-size: 3vh;
+    font-weight: bold;
+  }
+
+  label{
+    color: #004d66;
+    font-weight: bold;
+      font-style:inherit;
+      font-size: 4vh;
+  }
+#date{
+    width:80%;
+    height:7vh;
+
+}
+
+h1{
+    color:#004080;
+    font-weight: bold;
+    text-align: center;
+    padding: 5vh 0 5vh 0;
+}
+
+#attendanceButton{
+    height:7vh;
+    width:10vw;
+    margin:0 0 5vh 0;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: #004d66 ;
+}
+
+.footer{
+    background:#000;
+    padding:17px 0;
+    }
+    .footer p{
+    text-align:center;
+    margin:0 0 0px 0;
+    font-size:14px;
+    color: #ffffff;
+    }
+    .footer p a{
+    text-decoration:none;
+    color: #ff9c00;
+    }
+    .footer p a:hover{
+    color:#fff;
+    }
